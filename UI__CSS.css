@@ -103,7 +103,7 @@ ul {
   margin-top: 1.2em;
   text-align: center;
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
   background-color: #0d0d0d;
   padding: 0.7em;
   border-radius: 10px;
@@ -112,7 +112,7 @@ ul {
 }
 
 .button:hover {
-  background-color: green;
+  background-color: #58595B
 }
 
 .overlay {
@@ -185,7 +185,7 @@ div.dropdown > div.list {
   display: none;
   right: 0;
   width: 100%;
-  border: 1px solid red;
+  border: 1px solid #003767;
 }
 
 div.dropdown > div.list > div.item {
@@ -199,7 +199,7 @@ div.dropdown > div.list > div.item.selected {
 
 div.dropdown > div.caption:hover,
 div.dropdown > div.list > div.item:hover {
-  background-color: rgb(83, 161, 214);
+  background-color: #003767;
   color: #fff;
 }
 
@@ -210,4 +210,11 @@ div.dropdown.open > div.caption {
 
 div.dropdown.open > div.list {
   display: block;
+}
+
+svg {
+  width: 15px;
+  position: absolute;
+  right: 20px;
+  top: 15px;
 }
